@@ -1,0 +1,26 @@
+{
+    "name": "redcode/transaction-manager-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony RedCodeTransactionManagerBundle",
+    "keywords": ["Transaction", "Manager", "Flow", "Bundle"],
+    "homepage": "https://github.com/maZahaca/redcode-transaction-manager-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Reddikh",
+            "email": "mazahaco@gmail.com"
+    	}
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.4",
+        "symfony/framework-bundle": ">=2.0,<2.3-dev"
+    },
+    "require-dev": {
+        "twig/twig": "*",
+        "doctrine/doctrine-bundle": "*",
+        "swiftmailer/swiftmailer": "*",
+        "symfony/yaml": "2.1.*",
+        "symfony/validator": "2.1.*"
+    }
+}
