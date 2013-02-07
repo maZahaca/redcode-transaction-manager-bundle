@@ -16,8 +16,7 @@
         "php": ">=5.4.4",
         "symfony/framework-bundle": ">=2.0,<2.3-dev",
         "redcode/transaction-manager": "dev-dev",
-        "doctrine/doctrine-bundle": "*",
-        "symfony/yaml": "2.1.*"
+        "doctrine/doctrine-bundle": "*"
     },
     "autoload": {
         "psr-0": { "RedCode\\TransactionManagerBundle": "" }
