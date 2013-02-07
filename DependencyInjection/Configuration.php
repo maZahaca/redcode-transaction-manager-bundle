@@ -22,7 +22,7 @@ class Configuration implements ConfigurationInterface
 
         $rootNode
             ->children()
-                ->arrayNode('flows')->defaultValue(array())->end()
+                ->arrayNode('flows')->end()
             ->end();
 
         // Here you should define the parameters that are allowed to

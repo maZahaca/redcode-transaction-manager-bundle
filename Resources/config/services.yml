@@ -4,7 +4,7 @@ parameters:
 services:
     redcode.transaction.manager:
         class: RedCode\Transaction\Manager
-        arguments: [@entity.manager, @event_dispatcher, @logger, @redcode.transaction.flow.manager]
+        arguments: [@doctrine.orm.entity_manager, @event_dispatcher, @logger, @redcode.transaction.flow.manager]
 
     redcode.transaction.flow.manager:
         class: RedCode\Transaction\Flow\FlowManager
