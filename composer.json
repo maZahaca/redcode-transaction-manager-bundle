@@ -14,14 +14,10 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.4",
-        "symfony/framework-bundle": ">=2.0,<2.3-dev"
-    },
-    "require-dev": {
-        "twig/twig": "*",
+        "symfony/framework-bundle": ">=2.0,<2.3-dev",
+        "redcode/transaction-manager": "dev-dev",
         "doctrine/doctrine-bundle": "*",
-        "swiftmailer/swiftmailer": "*",
-        "symfony/yaml": "2.1.*",
-        "symfony/validator": "2.1.*"
+        "symfony/yaml": "2.1.*"
     },
     "autoload": {
         "psr-0": { "RedCode\\TransactionManagerBundle": "" }
